@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ISpeakBetter Regression Suite">
+	<listeners>
+			<!-- class-name="com.qa.ispeakbetterpackages.listeners.ExtentReportListener" /> -->
+			<listener class-name="com.qa.ispeakbetterpackages.listeners.TestAllureListener" />
+	</listeners>
+	<test name="ISpeakBetter Regression Test">
+		<classes>
+			<class
+				name="com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest">
+				<methods>
+					<include name="verifyPageTitle" />
+					<include name="clickBuyWithoutDuration" />
+					<include name="clickBuyWithoutClassLength" />
+					<include name="clickBuyWithoutNumberOfClasses" />
+				</methods>
+			</class>
+			<class
+				name="com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest">
+				<methods>
+					<include name="verifyPageTitle" />
+					<include name="selectDuration" />
+					<include name="selectClasses" />
+					<include name="selectWeek" />
+				</methods>
+			</class>
+			<class
+				name="com.qa.ispeakbetterpackages.test.PrintingAllValuesTest">
+				<methods>
+					<include name="verifyPageTitle" />
+					<include name="verifyDurationSelection" />
+					<include name="verifyWeekSelection" />
+					<include name="verifyClassesSelection" />
+					<include name="verifyProgramSelection" />
+				</methods>
+			</class>
+			<class
+				name="com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest">
+				<methods>
+					<include name="verifyPageTitle" />
+					<include name="verifyPackageSectionHeader" />
+					<include name="selectAPackage" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

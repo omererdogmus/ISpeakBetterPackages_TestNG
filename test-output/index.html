@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite">
+              <span class="suite-name border-passed">ISpeakBetter Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ISpeakBetter_Regression_Suite">
+                    <span>testng_regressiontest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ISpeakBetter_Regression_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ISpeakBetter_Regression_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ISpeakBetter_Regression_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ISpeakBetter_Regression_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ISpeakBetter_Regression_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ISpeakBetter_Regression_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ISpeakBetter_Regression_Suite" class="hide-methods passed suite-ISpeakBetter_Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-ISpeakBetter_Regression_Suite -->
+                      <a href="#" panel-name="suite-ISpeakBetter_Regression_Suite" class="show-methods passed suite-ISpeakBetter_Regression_Suite"> (show)</a> <!-- show-methods passed suite-ISpeakBetter_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-ISpeakBetter_Regression_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest" hash-for-method="clickBuyWithoutClassLength">clickBuyWithoutClassLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest" hash-for-method="clickBuyWithoutDuration">clickBuyWithoutDuration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest" hash-for-method="clickBuyWithoutNumberOfClasses">clickBuyWithoutNumberOfClasses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest" hash-for-method="selectAPackage">selectAPackage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest" hash-for-method="selectClasses">selectClasses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest" hash-for-method="selectDuration">selectDuration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest" hash-for-method="selectWeek">selectWeek</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.PrintingAllValuesTest" hash-for-method="verifyClassesSelection">verifyClassesSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.PrintingAllValuesTest" hash-for-method="verifyDurationSelection">verifyDurationSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest" hash-for-method="verifyPackageSectionHeader">verifyPackageSectionHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.PrintingAllValuesTest" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.PrintingAllValuesTest" hash-for-method="verifyProgramSelection">verifyProgramSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ISpeakBetter_Regression_Suite" title="com.qa.ispeakbetterpackages.test.PrintingAllValuesTest" hash-for-method="verifyWeekSelection">verifyWeekSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ISpeakBetter_Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ISpeakBetter_Regression_Suite" class="panel ISpeakBetter_Regression_Suite">
+          <div class="suite-ISpeakBetter_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.ispeakbetterpackages.test.PrintingAllValuesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClassesSelection">
+                  </a> <!-- verifyClassesSelection -->
+                  <span class="method-name">verifyClassesSelection</span>
+                  <em>
+(verifying classes selection numbers and values)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDurationSelection">
+                  </a> <!-- verifyDurationSelection -->
+                  <span class="method-name">verifyDurationSelection</span>
+                  <em>
+(verifying duration selection numbers and values)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                  <em>
+(verify page title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProgramSelection">
+                  </a> <!-- verifyProgramSelection -->
+                  <span class="method-name">verifyProgramSelection</span>
+                  <em>
+(verifying program selection numbers and values)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWeekSelection">
+                  </a> <!-- verifyWeekSelection -->
+                  <span class="method-name">verifyWeekSelection</span>
+                  <em>
+(verifying week selection numbers and values)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ISpeakBetter_Regression_Suite-class-passed -->
+          <div class="suite-ISpeakBetter_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectAPackage">
+                  </a> <!-- selectAPackage -->
+                  <span class="method-name">selectAPackage</span>
+                  <em>
+(selecting a classes and duration)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPackageSectionHeader">
+                  </a> <!-- verifyPackageSectionHeader -->
+                  <span class="method-name">verifyPackageSectionHeader</span>
+                  <em>
+(verify section header)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                  <em>
+(verify page title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ISpeakBetter_Regression_Suite-class-passed -->
+          <div class="suite-ISpeakBetter_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectClasses">
+                  </a> <!-- selectClasses -->
+                  <span class="method-name">selectClasses</span>
+                  <em>
+(verifying classes error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectDuration">
+                  </a> <!-- selectDuration -->
+                  <span class="method-name">selectDuration</span>
+                  <em>
+(verifying duration error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectWeek">
+                  </a> <!-- selectWeek -->
+                  <span class="method-name">selectWeek</span>
+                  <em>
+(verifying week error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                  <em>
+(verify page title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ISpeakBetter_Regression_Suite-class-passed -->
+          <div class="suite-ISpeakBetter_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickBuyWithoutClassLength">
+                  </a> <!-- clickBuyWithoutClassLength -->
+                  <span class="method-name">clickBuyWithoutClassLength</span>
+                  <em>
+(verify class length warning text)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickBuyWithoutDuration">
+                  </a> <!-- clickBuyWithoutDuration -->
+                  <span class="method-name">clickBuyWithoutDuration</span>
+                  <em>
+(verify duration warning text)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickBuyWithoutNumberOfClasses">
+                  </a> <!-- clickBuyWithoutNumberOfClasses -->
+                  <span class="method-name">clickBuyWithoutNumberOfClasses</span>
+                  <em>
+(verify class number warning text)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                  <em>
+(verify page title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ISpeakBetter_Regression_Suite-class-passed -->
+        </div> <!-- panel ISpeakBetter_Regression_Suite -->
+        <div panel-name="test-xml-ISpeakBetter_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/omererdogmus/Documents/eclipse-workspace/ISpeakBetterPackages/src/test/resources/testrunners/testng_regressiontest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;ISpeakBetter Regression Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ispeakbetterpackages.listeners.TestAllureListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ISpeakBetter Regression Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyPageTitle&quot;/&gt;
+          &lt;include name=&quot;clickBuyWithoutDuration&quot;/&gt;
+          &lt;include name=&quot;clickBuyWithoutClassLength&quot;/&gt;
+          &lt;include name=&quot;clickBuyWithoutNumberOfClasses&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest --&gt;
+      &lt;class name=&quot;com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyPageTitle&quot;/&gt;
+          &lt;include name=&quot;selectDuration&quot;/&gt;
+          &lt;include name=&quot;selectClasses&quot;/&gt;
+          &lt;include name=&quot;selectWeek&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest --&gt;
+      &lt;class name=&quot;com.qa.ispeakbetterpackages.test.PrintingAllValuesTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyPageTitle&quot;/&gt;
+          &lt;include name=&quot;verifyDurationSelection&quot;/&gt;
+          &lt;include name=&quot;verifyWeekSelection&quot;/&gt;
+          &lt;include name=&quot;verifyClassesSelection&quot;/&gt;
+          &lt;include name=&quot;verifyProgramSelection&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.ispeakbetterpackages.test.PrintingAllValuesTest --&gt;
+      &lt;class name=&quot;com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyPageTitle&quot;/&gt;
+          &lt;include name=&quot;verifyPackageSectionHeader&quot;/&gt;
+          &lt;include name=&quot;selectAPackage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ISpeakBetter Regression Test --&gt;
+&lt;/suite&gt; &lt;!-- ISpeakBetter Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ISpeakBetter_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ISpeakBetter Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ISpeakBetter Regression Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ISpeakBetter_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ISpeakBetter Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ISpeakBetter_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ISpeakBetter Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ISpeakBetter_Regression_Suite');
+function tableData_ISpeakBetter_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selectAPackage')
+data.setCell(0, 2, 'com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest')
+data.setCell(0, 3, 1033);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickBuyWithoutNumberOfClasses')
+data.setCell(1, 2, 'com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest')
+data.setCell(1, 3, 970);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickBuyWithoutDuration')
+data.setCell(2, 2, 'com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest')
+data.setCell(2, 3, 883);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickBuyWithoutClassLength')
+data.setCell(3, 2, 'com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest')
+data.setCell(3, 3, 862);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'selectDuration')
+data.setCell(4, 2, 'com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest')
+data.setCell(4, 3, 799);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyPackageSectionHeader')
+data.setCell(5, 2, 'com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest')
+data.setCell(5, 3, 570);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectClasses')
+data.setCell(6, 2, 'com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest')
+data.setCell(6, 3, 479);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectWeek')
+data.setCell(7, 2, 'com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest')
+data.setCell(7, 3, 365);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyProgramSelection')
+data.setCell(8, 2, 'com.qa.ispeakbetterpackages.test.PrintingAllValuesTest')
+data.setCell(8, 3, 135);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyClassesSelection')
+data.setCell(9, 2, 'com.qa.ispeakbetterpackages.test.PrintingAllValuesTest')
+data.setCell(9, 3, 95);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyWeekSelection')
+data.setCell(10, 2, 'com.qa.ispeakbetterpackages.test.PrintingAllValuesTest')
+data.setCell(10, 3, 82);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyDurationSelection')
+data.setCell(11, 2, 'com.qa.ispeakbetterpackages.test.PrintingAllValuesTest')
+data.setCell(11, 3, 65);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyPageTitle')
+data.setCell(12, 2, 'com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest')
+data.setCell(12, 3, 46);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyPageTitle')
+data.setCell(13, 2, 'com.qa.ispeakbetterpackages.test.PrintingAllValuesTest')
+data.setCell(13, 3, 18);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyPageTitle')
+data.setCell(14, 2, 'com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest')
+data.setCell(14, 3, 11);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyPageTitle')
+data.setCell(15, 2, 'com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest')
+data.setCell(15, 3, 10);
+window.suiteTableData['ISpeakBetter_Regression_Suite']= { tableData: data, tableDiv: 'times-div-ISpeakBetter_Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-ISpeakBetter_Regression_Suite">
+              </div> <!-- times-div-ISpeakBetter_Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ISpeakBetter_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ISpeakBetter Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ISpeakBetter_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ISpeakBetter_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">4790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickBuyWithoutDuration</span>
+                <span class="method-start">8672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9559 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickBuyWithoutClassLength</span>
+                <span class="method-start">13336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickBuyWithoutNumberOfClasses</span>
+                <span class="method-start">17970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18942 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">22643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectDuration</span>
+                <span class="method-start">26564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27365 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectClasses</span>
+                <span class="method-start">33118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectWeek</span>
+                <span class="method-start">37831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38198 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ispeakbetterpackages.test.PrintingAllValuesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">42355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42374 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDurationSelection</span>
+                <span class="method-start">46329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46395 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">46490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWeekSelection</span>
+                <span class="method-start">50358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50441 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50535 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyClassesSelection</span>
+                <span class="method-start">54460 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProgramSelection</span>
+                <span class="method-start">62045 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62181 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">62274 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">65827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65839 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">65933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPackageSectionHeader</span>
+                <span class="method-start">69605 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70177 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">70272 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectAPackage</span>
+                <span class="method-start">74178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75214 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

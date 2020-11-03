@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ISpeakBetter Regression Suite]">
+  <listeners>
+    <listener class-name="com.qa.ispeakbetterpackages.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" name="ISpeakBetter Regression Test(failed)">
+    <classes>
+      <class name="com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest">
+        <methods>
+          <include name="selectAPackage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest -->
+    </classes>
+  </test> <!-- ISpeakBetter Regression Test(failed) -->
+</suite> <!-- Failed suite [ISpeakBetter Regression Suite] -->

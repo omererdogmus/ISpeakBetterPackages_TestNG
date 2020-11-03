@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ISpeakBetter Regression Suite" duration-ms="75358" started-at="2020-10-19T22:30:06 EDT" finished-at="2020-10-19T22:31:21 EDT">
+    <groups>
+    </groups>
+    <test name="ISpeakBetter Regression Test" duration-ms="75358" started-at="2020-10-19T22:30:06 EDT" finished-at="2020-10-19T22:31:21 EDT">
+      <class name="com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest@5ebd56e9]" name="setUp" is-config="true" duration-ms="3552" started-at="2020-10-19T22:31:08 EDT" finished-at="2020-10-19T22:31:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest@5ebd56e9]" name="verifyPageTitle" duration-ms="11" started-at="2020-10-19T22:31:12 EDT" description="verify page title" finished-at="2020-10-19T22:31:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest@5ebd56e9]" name="tearDown" is-config="true" duration-ms="93" started-at="2020-10-19T22:31:12 EDT" finished-at="2020-10-19T22:31:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest@5ebd56e9]" name="setUp" is-config="true" duration-ms="3671" started-at="2020-10-19T22:31:12 EDT" finished-at="2020-10-19T22:31:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPackageSectionHeader()[pri:2, instance:com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest@5ebd56e9]" name="verifyPackageSectionHeader" duration-ms="570" started-at="2020-10-19T22:31:15 EDT" description="verify section header" finished-at="2020-10-19T22:31:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPackageSectionHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest@5ebd56e9]" name="tearDown" is-config="true" duration-ms="94" started-at="2020-10-19T22:31:16 EDT" finished-at="2020-10-19T22:31:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest@5ebd56e9]" name="setUp" is-config="true" duration-ms="3905" started-at="2020-10-19T22:31:16 EDT" finished-at="2020-10-19T22:31:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectAPackage()[pri:3, instance:com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest@5ebd56e9]" name="selectAPackage" duration-ms="1033" started-at="2020-10-19T22:31:20 EDT" description="selecting a classes and duration" finished-at="2020-10-19T22:31:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAPackage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest@5ebd56e9]" name="tearDown" is-config="true" duration-ms="98" started-at="2020-10-19T22:31:21 EDT" finished-at="2020-10-19T22:31:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ispeakbetterpackages.test.SelectingRandomPlansTest -->
+      <class name="com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="setUp" is-config="true" duration-ms="3604" started-at="2020-10-19T22:30:25 EDT" finished-at="2020-10-19T22:30:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="verifyPageTitle" duration-ms="10" started-at="2020-10-19T22:30:28 EDT" description="verify page title" finished-at="2020-10-19T22:30:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="tearDown" is-config="true" duration-ms="93" started-at="2020-10-19T22:30:28 EDT" finished-at="2020-10-19T22:30:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="setUp" is-config="true" duration-ms="3813" started-at="2020-10-19T22:30:29 EDT" finished-at="2020-10-19T22:30:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectDuration()[pri:2, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="selectDuration" duration-ms="799" started-at="2020-10-19T22:30:32 EDT" description="verifying duration error message" finished-at="2020-10-19T22:30:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDuration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="tearDown" is-config="true" duration-ms="128" started-at="2020-10-19T22:30:33 EDT" finished-at="2020-10-19T22:30:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="setUp" is-config="true" duration-ms="5621" started-at="2020-10-19T22:30:33 EDT" finished-at="2020-10-19T22:30:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectClasses()[pri:3, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="selectClasses" duration-ms="479" started-at="2020-10-19T22:30:39 EDT" description="verifying classes error message" finished-at="2020-10-19T22:30:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectClasses -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="tearDown" is-config="true" duration-ms="109" started-at="2020-10-19T22:30:39 EDT" finished-at="2020-10-19T22:30:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="setUp" is-config="true" duration-ms="4120" started-at="2020-10-19T22:30:40 EDT" finished-at="2020-10-19T22:30:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectWeek()[pri:4, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="selectWeek" duration-ms="365" started-at="2020-10-19T22:30:44 EDT" description="verifying week error message" finished-at="2020-10-19T22:30:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectWeek -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest@1a6f2363]" name="tearDown" is-config="true" duration-ms="106" started-at="2020-10-19T22:30:44 EDT" finished-at="2020-10-19T22:30:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ispeakbetterpackages.test.HandlingErrorMessagesPageTest -->
+      <class name="com.qa.ispeakbetterpackages.test.PrintingAllValuesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="setUp" is-config="true" duration-ms="4047" started-at="2020-10-19T22:30:44 EDT" finished-at="2020-10-19T22:30:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="verifyPageTitle" duration-ms="18" started-at="2020-10-19T22:30:48 EDT" description="verify page title" finished-at="2020-10-19T22:30:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="tearDown" is-config="true" duration-ms="111" started-at="2020-10-19T22:30:48 EDT" finished-at="2020-10-19T22:30:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="setUp" is-config="true" duration-ms="3842" started-at="2020-10-19T22:30:48 EDT" finished-at="2020-10-19T22:30:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyDurationSelection()[pri:2, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="verifyDurationSelection" duration-ms="65" started-at="2020-10-19T22:30:52 EDT" description="verifying duration selection numbers and values" finished-at="2020-10-19T22:30:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDurationSelection -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="tearDown" is-config="true" duration-ms="94" started-at="2020-10-19T22:30:52 EDT" finished-at="2020-10-19T22:30:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="setUp" is-config="true" duration-ms="3867" started-at="2020-10-19T22:30:52 EDT" finished-at="2020-10-19T22:30:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyWeekSelection()[pri:3, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="verifyWeekSelection" duration-ms="82" started-at="2020-10-19T22:30:56 EDT" description="verifying week selection numbers and values" finished-at="2020-10-19T22:30:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWeekSelection -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="tearDown" is-config="true" duration-ms="93" started-at="2020-10-19T22:30:56 EDT" finished-at="2020-10-19T22:30:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="setUp" is-config="true" duration-ms="3924" started-at="2020-10-19T22:30:56 EDT" finished-at="2020-10-19T22:31:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyClassesSelection()[pri:4, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="verifyClassesSelection" duration-ms="95" started-at="2020-10-19T22:31:00 EDT" description="verifying classes selection numbers and values" finished-at="2020-10-19T22:31:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClassesSelection -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="tearDown" is-config="true" duration-ms="96" started-at="2020-10-19T22:31:00 EDT" finished-at="2020-10-19T22:31:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="setUp" is-config="true" duration-ms="7391" started-at="2020-10-19T22:31:00 EDT" finished-at="2020-10-19T22:31:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProgramSelection()[pri:5, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="verifyProgramSelection" duration-ms="135" started-at="2020-10-19T22:31:08 EDT" description="verifying program selection numbers and values" finished-at="2020-10-19T22:31:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProgramSelection -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.PrintingAllValuesTest@2427e004]" name="tearDown" is-config="true" duration-ms="92" started-at="2020-10-19T22:31:08 EDT" finished-at="2020-10-19T22:31:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ispeakbetterpackages.test.PrintingAllValuesTest -->
+      <class name="com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="setUp" is-config="true" duration-ms="4682" started-at="2020-10-19T22:30:06 EDT" finished-at="2020-10-19T22:30:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="verifyPageTitle" duration-ms="46" started-at="2020-10-19T22:30:11 EDT" description="verify page title" finished-at="2020-10-19T22:30:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="tearDown" is-config="true" duration-ms="95" started-at="2020-10-19T22:30:11 EDT" finished-at="2020-10-19T22:30:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="setUp" is-config="true" duration-ms="3726" started-at="2020-10-19T22:30:11 EDT" finished-at="2020-10-19T22:30:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickBuyWithoutDuration()[pri:2, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="clickBuyWithoutDuration" duration-ms="883" started-at="2020-10-19T22:30:14 EDT" description="verify duration warning text" finished-at="2020-10-19T22:30:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBuyWithoutDuration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="tearDown" is-config="true" duration-ms="92" started-at="2020-10-19T22:30:15 EDT" finished-at="2020-10-19T22:30:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="setUp" is-config="true" duration-ms="3683" started-at="2020-10-19T22:30:15 EDT" finished-at="2020-10-19T22:30:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickBuyWithoutClassLength()[pri:3, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="clickBuyWithoutClassLength" duration-ms="862" started-at="2020-10-19T22:30:19 EDT" description="verify class length warning text" finished-at="2020-10-19T22:30:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBuyWithoutClassLength -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="tearDown" is-config="true" duration-ms="95" started-at="2020-10-19T22:30:20 EDT" finished-at="2020-10-19T22:30:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="setUp" is-config="true" duration-ms="3673" started-at="2020-10-19T22:30:20 EDT" finished-at="2020-10-19T22:30:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickBuyWithoutNumberOfClasses()[pri:4, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="clickBuyWithoutNumberOfClasses" duration-ms="970" started-at="2020-10-19T22:30:24 EDT" description="verify class number warning text" finished-at="2020-10-19T22:30:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBuyWithoutNumberOfClasses -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest@681aad3b]" name="tearDown" is-config="true" duration-ms="95" started-at="2020-10-19T22:30:25 EDT" finished-at="2020-10-19T22:30:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ispeakbetterpackages.test.ClickBuyBtnWithoutSelectionTest -->
+    </test> <!-- ISpeakBetter Regression Test -->
+  </suite> <!-- ISpeakBetter Regression Suite -->
+</testng-results>
